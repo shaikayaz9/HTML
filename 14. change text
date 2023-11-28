@@ -1,0 +1,11 @@
+<p id="peep"></p>
+<button onclick="myfunction('ayaz')">click for ayaz</button>
+
+<button onclick="myfunction('azzu')">click for azzu</button>
+
+<script> 
+function myfunction(name)
+{
+	document.getElementsById("peep").innerHTML = "welcome "+ name;
+}
+</script>
